@@ -1,0 +1,13 @@
+.about-information {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 1% 0;
+}
+
+.about-text {
+    color: white;
+    width: 600px;
+    line-height: 50px;
+    font-size: 25px;
+}

@@ -1,0 +1,84 @@
+
+/*Código de la presentación de la página*/
+
+.page-presentation {
+    padding: 7% 10% 3% 10%;
+}
+
+.page-presentation figure {
+    text-align: center;
+}
+
+.title {
+    margin: 0;
+    font-family: Arial;
+    font-size: 60px;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+
+/*Código del índice de la página*/
+
+.content-index {
+    padding: 0 27.5%;
+}
+
+h5 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.content-index-list {
+    line-height: 30px;
+}
+
+/*Código de los parrafos del articulo*/
+
+.content-text {
+    padding: 2% 27.5%;
+}
+
+.content-text-title {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.content-text-subtitle {
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 20px 0;
+}
+
+.content-text-paragraph {
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.button-container {
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.start-button {
+    text-decoration: none;
+    border-radius: 15px;
+    color: white;
+    padding: 40px 60px;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.start-button:hover {
+    transition: 0.7s;
+    color: black;
+    background-color: white;
+}
+

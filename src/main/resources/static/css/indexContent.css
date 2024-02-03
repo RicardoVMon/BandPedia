@@ -1,0 +1,44 @@
+
+.page-presentation {
+    padding: 7% 25%;
+}
+
+.title {
+    margin: 0;
+    font-family: Arial;
+    font-size: 60px;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    line-height: 50px;
+    
+}
+
+.button-container {
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.start-button {
+    text-decoration: none;
+    border-radius: 15px;
+    color: white;
+    padding: 40px 60px;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.start-button:hover {
+    transition: 0.7s;
+    color: black;
+    background-color: white;
+}

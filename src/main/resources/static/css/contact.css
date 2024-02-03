@@ -1,0 +1,54 @@
+.form-container {
+    background-color: gray;
+    padding: 1% 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.email-input {
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.full-name-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.firstname-input, .lastname-input {
+    width: 95%;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+
+.question-container {
+    margin-top: 20px;
+}
+
+.submit-button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.submit-button {
+    padding: 20px 50px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.submit-button:hover {
+    transition: 0.7s;
+    color: black;
+    background-color: white;
+}
+
+
+h3 {
+    color: white;
+    margin: 0;
+}
